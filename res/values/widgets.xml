@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<style name="Widget"/>
+
+	<style name="Widget.SilentCircle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Widget.SilentCircle.Light"/>
+
+	<style name="Widget.SilentCircle.Light.Layout"/>
+
+	<style name="Widget.SilentCircle.Light.Layout.Linear"/>
+
+	<style name="Widget.SilentCircle.Light.Layout.Linear.Horizontal">
+		<item name="android:orientation">horizontal</item>
+	</style>
+
+	<style name="Widget.SilentCircle.Light.Layout.Linear.Vertical">
+		<item name="android:orientation">vertical</item>
+	</style>
+
+	<style name="Widget.SilentCircle.Light.List">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+
+	<style name="Widget.SilentCircle.Light.Text">
+	    <item name="android:textSize">@dimen/text_normal</item>
+	    <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+	<style name="LabeledValue" parent="@style/Widget.SilentCircle.Light.Layout.Linear.Horizontal">
+		<item name="android:layout_width">match_parent</item>
+	</style>
+
+	<style name="Text.LabeledValue" parent="@style/Widget.SilentCircle.Light.Text">
+		<item name="android:layout_width">match_parent</item>
+	</style>
+
+	<style name="Text.LabeledValue.Label">
+	    <item name="android:textSize">@dimen/text_xnormal</item>
+	</style>
+
+	<style name="Text.LabeledValue.Value">
+	    <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+</resources>

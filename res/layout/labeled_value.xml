@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.silentcircle.status.widget.LabeledValueView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/LabeledValue">
+	<ImageView android:id="@+id/icon" android:layout_width="48dp" android:layout_height="48dp" android:src="@null" android:contentDescription="@string/sample_label" android:layout_margin="@dimen/space_normal" android:layout_gravity="center_vertical"/>
+	<LinearLayout style="@style/Widget.SilentCircle.Light.Layout.Linear.Vertical" android:padding="@dimen/space_normal" android:layout_gravity="center_vertical">
+		<TextView android:id="@+id/label" style="@style/Text.LabeledValue.Label" android:text="@string/sample_label"/>
+		<TextView android:id="@+id/value" style="@style/Text.LabeledValue.Value" android:text="@string/sample_value"/>
+	</LinearLayout>
+</com.silentcircle.status.widget.LabeledValueView>

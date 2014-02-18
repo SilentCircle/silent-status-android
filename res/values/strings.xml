@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">Silent Status</string>
+	<string name="action_refresh">Refresh</string>
+
+	<string name="status_unknown">Unknown</string>
+	<string name="status_not_installed">Not Installed</string>
+	<string name="status_unlocked">Unlocked</string>
+	<string name="status_installed">Installed</string>
+	<string name="status_authenticated">Authenticated</string>
+	<string name="status_online">Online</string>
+	<string name="status_registering">Registering</string>
+
+
+</resources>

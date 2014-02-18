@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<dimen name="none">0dp</dimen>
+
+	<dimen name="space_normal">8dp</dimen>
+
+	<dimen name="text_normal">16sp</dimen>
+	<dimen name="text_xnormal">20sp</dimen>
+	<dimen name="text_large">24sp</dimen>
+
+</resources>
